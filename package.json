@@ -1,0 +1,29 @@
+{
+  "name": "shajanjp",
+  "version": "0.0.1",
+  "description": "My NPM card.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shajanjp/shajanjp.git"
+  },
+  "author": "Shajan Jacob <shajanjp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shajanjp/shajanjp/issues"
+  },
+  "homepage": "https://github.com/shajanjp/shajanjp#readme",
+  "keywords": [
+    "portfolio",
+    "cli",
+    "about",
+    "shajanjp"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
