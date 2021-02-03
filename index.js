@@ -4,5 +4,5 @@ console.log({
   email: "shajanjp@gmail.com",
   website: "https://shajanjacob.com",
   github: "shajanjp",
-  twitter: "shajanjacob",
+  twitter: "@shajanjacob"
 });
