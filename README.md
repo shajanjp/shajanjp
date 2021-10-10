@@ -6,4 +6,4 @@ I'm a full-stack software engineer 🎉
 - Apart from gardening and crafts, I admire taking photographs of moments that anyone doesn't want to miss in a lifetime. 
 - I've worked for companies like Cubet, BakeBrand, and GWC.
 
-😄 Fun fact: `[[[[[[ undefined ]]]]]] == 0` returns true in JavaScript.
+😄 Fun fact: `[[[[[[ undefined ]]]]]] == 0` returns `true` in Javascript.
