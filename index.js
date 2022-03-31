@@ -31,7 +31,7 @@ function keyValueInColor(key, value) {
   return keyValueCharStack;
 }
 
-function typeTHis(data) {
+function typeToTerminal(data) {
   const charStack = [];
   
   charStack.push(inColor("green", "{\n"));
@@ -45,10 +45,15 @@ function typeTHis(data) {
   charStack.push(inColor("green", "}\n"));
   
   let index = 0;
+  const delay = 40;
   
-  for (const char of charStack) {
-    setTimeout(() => process.stdout.write(char), (index += 40));
-  }
+  const interval = setInterval(() => {
+    if(index< charStack.length){
+      process.stdout.write(charStack[index++]);
+    } else {
+      clearInterval(interval);
+    }
+  }, 40);
 }
 
 function getLatestAboutMe(filePath){
@@ -82,5 +87,5 @@ function getLatestAboutMe(filePath){
 
 getLatestAboutMe(aboutMeFilePath)
 .then(aboutMe => {
-  typeTHis(aboutMe);
+  typeToTerminal(aboutMe);
 });
